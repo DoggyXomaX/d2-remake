@@ -1,9 +1,7 @@
 {
   "name": "d2-remake",
   "author": "doggyxomax <doggyxomax@gmail.com>",
-  "repository": {
-    "url": "https://github.com/DoggyXomaX/d2-remake"
-  },
+  "repository": "https://github.com/DoggyXomaX/d2-remake",
   "type": "module",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",
@@ -14,5 +12,8 @@
   },
   "scripts": {
     "ts-lint": "tsc --no-emit"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
 }
