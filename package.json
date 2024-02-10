@@ -1,8 +1,20 @@
 {
   "name": "d2-remake",
-  "module": "index.ts",
+  "author": "doggyxomax <doggyxomax@gmail.com>",
+  "repository": "https://github.com/DoggyXomaX/d2-remake",
   "type": "module",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "dependencies": {
+    "parcel": "^2.11.0"
+  },
+  "scripts": {
+    "ts-lint": "tsc --no-emit",
+    "start": "parcel src/index.html"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
 }
