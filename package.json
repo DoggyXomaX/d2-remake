@@ -30,7 +30,7 @@
   "scripts": {
     "ts-lint": "tsc --no-emit",
     "lint": "eslint --ext .ts,.tsx src",
-    "start": "parcel --open src/index.html"
+    "start": "parcel ./src/index.html"
   },
   "version": "1.0.0",
   "main": "index.js",

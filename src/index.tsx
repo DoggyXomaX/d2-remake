@@ -1,3 +1,4 @@
+import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 function App() {
@@ -6,9 +7,9 @@ function App() {
 
 const appElement = document.getElementById('app');
 
-if (appElement) {
-  const root = createRoot(appElement);
-  root.render(<App />);
-} else {
-  console.error('No app element in document');
+if (!appElement) {
+  throw Error('No app element in document!');
 }
+
+const root = createRoot(appElement);
+root.render(<App />);
