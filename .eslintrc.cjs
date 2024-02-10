@@ -17,7 +17,6 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
-    'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     '@typescript-eslint/no-unused-vars': ['error'],
     'no-unused-vars': 'off',
