@@ -17,6 +17,8 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     '@typescript-eslint/no-unused-vars': ['error'],
     'no-unused-vars': 'off',

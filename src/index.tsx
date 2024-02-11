@@ -1,9 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-
-function App() {
-  return <p>Am I working?</p>;
-}
+import Game from './Components/Game';
 
 const appElement = document.getElementById('app');
 
@@ -12,4 +9,4 @@ if (!appElement) {
 }
 
 const root = createRoot(appElement);
-root.render(<App />);
+root.render(<Game />);
